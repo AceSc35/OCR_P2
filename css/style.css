@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* General Content */
+
 body {
   font-family: "Raleway", sans-serif;
   width: 92%;
   margin: auto;
 }
+
+/* Header Content */
 
 .header-section {
   display: flex;
@@ -30,16 +34,20 @@ body {
   display: flex;
 }
 
-.li-parth {
-  padding-left: 40px;
-  padding-right: 40px;
+.lien-nav {
   text-decoration: none;
+  color: inherit;
 }
 
-.li-parth:hover {
+.ele-nav {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.lien-nav:hover {
   color: #0065fc;
-  border-top: 2px solid #0065fc;
-  padding-top: 23.5px;
+  border-top: 2.5px solid #0065fc;
+  padding-top: 22.5px;
 }
 
 /* Tablet responsive  */
@@ -56,11 +64,13 @@ body {
     width: 100%;
   }
 
-  /* Header Content */
+  /* Header Content mobile */
 
   .header-section {
     flex-direction: column;
   }
+
+  /* Logo Booki mobile */
 
   .logo-booki {
     display: flex;
@@ -71,18 +81,29 @@ body {
     margin-left: 36px;
   }
 
-  .li-parth:hover {
-    color: #0065fc;
-    border-bottom: 2px solid #0065fc;
-    border-top: unset;
-  }
-
-  .li-parth {
-    width: 50%;
-    border-bottom: 2px solid #f2f2f2;
-  }
+  /* Nav mobile*/
 
   .ul-part {
     width: 100%;
+    text-align: center;
+  }
+  .ele-nav {
+    width: 50%;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 2%;
+  }
+  .ele-nav:hover {
+    color: #0065fc;
+    border-bottom: 2px solid #0065fc;
+    padding-bottom: 2%;
+  }
+
+  .lien-nav {
+    width: 50%;
+    padding: unset;
+  }
+
+  .lien-nav:hover {
+    border-top: none;
   }
 }
