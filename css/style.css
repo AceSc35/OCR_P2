@@ -44,10 +44,14 @@ body {
   padding-right: 40px;
 }
 
-.lien-nav:hover {
-  color: #0065fc;
-  border-top: 2.5px solid #0065fc;
-  padding-top: 22.5px;
+@media only screen and (min-width: 992px) {
+  /* Nav PC */
+
+  .lien-nav:hover {
+    color: #0065fc;
+    border-top: 2.5px solid #0065fc;
+    padding-top: 22.5px;
+  }
 }
 
 /* Tablet responsive  */
