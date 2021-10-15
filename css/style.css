@@ -20,6 +20,7 @@ body {
 .logo-booki img {
   width: 105px;
   margin-top: 40px;
+  margin-left: 10px;
 }
 
 /* Nav PC */
@@ -46,15 +47,67 @@ body {
   width: 50%;
 }
 
+/* Title Container PC */
+
+.title-container h3 {
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.title-container p {
+  margin-bottom: 15px;
+}
+
 /* Search Container PC */
+
+.icon-container {
+  border-radius: 9px 0 0 9px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.fa-map-marker-alt {
+  font-size: 14px;
+}
+
+.imput-container {
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  display: flex;
+}
+
+.search-place {
+  border: 0;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+}
 
 .search-container {
   display: flex;
-  flex-direction: row;
+  height: 39px;
+}
+
+.search {
+  border-radius: 0 9px 9px 0;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #0065fc;
 }
 
 @media only screen and (min-width: 992px) {
-  /* Nav PC */
+  /* Nav responsive pc */
 
   .lien-nav:hover {
     color: #0065fc;
