@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* General Content */
+/* General Content PC */
 
 body {
   font-family: "Raleway", sans-serif;
@@ -8,30 +8,33 @@ body {
   margin: auto;
 }
 
-/* Header Content */
+/* Header Content PC */
 
 .header-section {
   display: flex;
   justify-content: space-between;
 }
 
-/* Logo Booki */
+/* Logo Booki PC */
 
 .logo-booki img {
   width: 105px;
   margin-top: 40px;
 }
 
-/* Nav */
+/* Nav PC */
 
 .nav-section {
   margin-top: 25px;
   display: flex;
+  width: 25%;
 }
 
 .ul-part {
   list-style-type: none;
   display: flex;
+  text-align: center;
+  width: 100%;
 }
 
 .lien-nav {
@@ -40,8 +43,14 @@ body {
 }
 
 .ele-nav {
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 50%;
+}
+
+/* Search Container PC */
+
+.search-container {
+  display: flex;
+  flex-direction: row;
 }
 
 @media only screen and (min-width: 992px) {
@@ -62,7 +71,7 @@ body {
 /* Mobile responsive  */
 
 @media only screen and (max-width: 768px) {
-  /* General Content */
+  /* General Content mobile*/
 
   body {
     width: 100%;
@@ -85,11 +94,17 @@ body {
     margin-left: 36px;
   }
 
-  /* Nav mobile*/
+  /* Nav mobile */
+
+  .nav-section {
+    /*justify-content: space-between - possible que cela est inutile*/
+    width: 100%;
+  }
 
   .ul-part {
     width: 100%;
     text-align: center;
+    justify-content: space-between;
   }
   .ele-nav {
     width: 50%;
@@ -104,7 +119,6 @@ body {
 
   .lien-nav {
     width: 50%;
-    padding: unset;
   }
 
   .lien-nav:hover {
