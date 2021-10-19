@@ -106,6 +106,60 @@ input:focus {
   background-color: #0065fc;
 }
 
+/* FILTERS PC */
+
+.filters-general {
+  display: flex;
+  align-items: center;
+  margin: 1.5% 0;
+}
+
+.filtres {
+  margin-right: 1.5%;
+  font-weight: bold;
+}
+
+.filters-container {
+  display: flex;
+  width: 75%;
+}
+
+.filter-icon-container {
+  display: flex;
+  margin-right: 2%;
+}
+
+.icon-text-container {
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  border-right: 2px solid #f2f2f2;
+  border-radius: 25px;
+}
+
+.filter-icon-link {
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border-radius: 18px;
+  color: #0065fc;
+}
+
+.filter-text {
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  padding: 0 20px 0 9px;
+}
+
+.icon-text-container {
+  display: flex;
+}
+
 @media only screen and (min-width: 992px) {
   /* Nav responsive pc */
 
@@ -139,8 +193,7 @@ input:focus {
   /* Logo Booki mobile */
 
   .logo-booki {
-    display: flex;
-    justify-content: center;
+    text-align: center;
   }
 
   .logo-booki img {
@@ -184,10 +237,8 @@ input:focus {
     margin: 19px;
   }
 
-  .title-container h3 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 22px;
+  h3 {
+    font-size: 1.4em;
   }
 
   /* Search Container mobile */
