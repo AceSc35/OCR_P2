@@ -136,6 +136,11 @@ input:focus {
   border-radius: 25px;
 }
 
+.icon-text-container:hover {
+  background-color: black;
+  color: white;
+}
+
 .filter-icon-link {
   width: 34px;
   display: flex;
