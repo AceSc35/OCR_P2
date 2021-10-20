@@ -115,7 +115,7 @@ input:focus {
 }
 
 .filtres {
-  margin-right: 1.5%;
+  margin-right: 3%;
   font-weight: bold;
 }
 
@@ -163,6 +163,28 @@ input:focus {
 
 .icon-text-container {
   display: flex;
+}
+
+.information-container {
+  display: flex;
+  align-items: center;
+}
+
+.info-circle-icon {
+  margin-right: 1%;
+  color: #0065fc;
+  border: 2px solid #f2f2f2;
+  border-radius: 12px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.information-text {
+  font-size: 15px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -285,12 +307,26 @@ input:focus {
 
   .filters-container {
     flex-wrap: wrap;
-    margin-top: 21px;
+    margin-top: 19px;
     width: auto;
   }
 
   .filter-icon-container {
     margin-right: 9%;
     margin-bottom: 5%;
+  }
+
+  .information-container {
+    margin-left: 19px;
+    width: 85%;
+  }
+  .info-circle-icon {
+    margin-right: 2%;
+    width: 29px;
+    font-size: 12px;
+  }
+
+  .information-text {
+    padding-top: 6%;
   }
 }
