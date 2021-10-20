@@ -208,7 +208,6 @@ input:focus {
   /* Nav mobile */
 
   .nav-section {
-    /*justify-content: space-between - possible que cela est inutile*/
     width: 100%;
   }
 
@@ -274,5 +273,24 @@ input:focus {
     content: "\f002";
     color: #f2f2f2;
     font-size: 14px;
+  }
+
+  /* FILTERS mobile */
+
+  .filters-general {
+    display: block;
+    margin-left: 19px;
+    margin-top: 30px;
+  }
+
+  .filters-container {
+    flex-wrap: wrap;
+    margin-top: 21px;
+    width: auto;
+  }
+
+  .filter-icon-container {
+    margin-right: 9%;
+    margin-bottom: 5%;
   }
 }
