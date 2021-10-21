@@ -189,14 +189,84 @@ input:focus {
   font-size: 15px;
 }
 
+/* AVAILABLE ACCOMMODATION */
+
+.full-accommodation {
+  margin-top: 3%;
+  height: 700px;
+  display: flex;
+}
+
+.accommodation-marseille {
+  padding-top: 2%;
+  padding-left: 3%;
+  background-color: #f2f2f2;
+  margin-right: 50px;
+  flex: 2;
+  border-radius: 18px;
+}
+
+.title-accommodation {
+  margin-bottom: 1.75%;
+  font-size: 19px;
+}
+
 /* 1st SECTION Part A - ACCOMMODATION  */
 
+.global-accommodation {
+  width: 20%;
+  border-radius: 19px;
+  background-color: white;
+  padding: 0.5%;
+}
+
 .img-cannebiere {
-  background-image: url(../assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
-  background-repeat: no-repeat;
-  width: 300px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
   height: 100px;
-  padding: 0;
+  border-radius: 19px 19px 0 0;
+}
+
+.text-global-accommodation {
+  padding-left: 4%;
+}
+
+.text-accommodation {
+  font-weight: bold;
+}
+
+.text-accommodation p {
+  font-weight: normal;
+  font-size: 15px;
+  padding-top: 3%;
+}
+
+.icon-stars-accommodation {
+  padding-top: 3%;
+}
+
+.full {
+  color: #0065fc;
+  font-size: 13px;
+}
+
+.empty {
+  color: #f2f2f2;
+  font-size: 13px;
+}
+
+/* 1st SECTION Part B - MOST POPULAR  */
+
+.most-popular-marseille {
+  padding-top: 2%;
+  padding-left: 3%;
+  border-radius: 18px;
+}
+
+.most-popular-marseille {
+  background-color: #f2f2f2;
+  flex: 1;
 }
 
 @media only screen and (min-width: 992px) {
