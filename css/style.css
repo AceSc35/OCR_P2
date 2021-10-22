@@ -4,7 +4,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  width: 92%;
+  width: 77%;
   margin: auto;
 }
 
@@ -193,7 +193,7 @@ input:focus {
 
 .full-accommodation {
   margin-top: 3%;
-  height: 700px;
+  height: 642px;
   display: flex;
 }
 
@@ -207,7 +207,7 @@ input:focus {
 }
 
 .title-accommodation {
-  margin-bottom: 1.75%;
+  margin-bottom: 29px;
   font-size: 22px;
 }
 
@@ -218,13 +218,13 @@ input:focus {
 }
 
 .global-accommodation {
-  width: 23%;
+  width: 27%;
   border-radius: 19px;
   background-color: white;
   padding: 0.5%;
   box-shadow: 8px 6px 6px 0px #f2f2f2;
   margin-right: 5%;
-  margin-bottom: 7%;
+  margin-bottom: 4%;
 }
 
 .img-accommodation {
@@ -263,6 +263,11 @@ input:focus {
   font-size: 13px;
 }
 
+.more-display {
+  font-weight: bold;
+  font-size: 17px;
+}
+
 /* 1st SECTION Part B - MOST POPULAR  */
 
 .most-popular-marseille {
@@ -273,20 +278,58 @@ input:focus {
   flex: 1;
 }
 
+.most-popular-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart-icon {
+  font-size: 29px;
+  padding-right: 13%;
+}
+
 .global-mostpopular {
   display: flex;
   margin-bottom: 7%;
   background-color: white;
   border-radius: 19px 19px;
-  width: 83%;
-  padding: 0.5%;
+  width: 87%;
+  padding: 1%;
 }
 
 .img-mostpopular {
   width: 29%;
-  height: 129px;
+  height: 139px;
   border-radius: 19px 0 0 19px;
   object-fit: cover;
+}
+
+.img-mostpopular-toutbleu {
+  width: 75%;
+  height: 139px;
+  border-radius: 19px 0 0 19px;
+  object-fit: cover;
+}
+
+.text-popular p {
+  font-weight: normal;
+  font-size: 15px;
+  padding-top: 6%;
+}
+
+.text-global-mostpopular {
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-right: 27%;
+}
+
+.text-popular {
+  font-weight: bold;
+}
+
+.icon-stars-mostpopular {
+  padding-top: 19%;
 }
 
 @media only screen and (min-width: 992px) {
@@ -432,5 +475,9 @@ input:focus {
 
   .information-text {
     padding-top: 6%;
+  }
+
+  .full-accommodation {
+    flex-direction: column;
   }
 }
