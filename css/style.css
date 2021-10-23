@@ -193,21 +193,21 @@ input:focus {
 
 .full-accommodation {
   margin-top: 3%;
-  height: 642px;
   display: flex;
 }
 
 .accommodation-marseille {
-  padding-top: 2%;
-  padding-left: 3%;
+  padding-top: 33px;
+  padding-left: 52px;
   background-color: #f2f2f2;
   margin-right: 50px;
   flex: 2;
   border-radius: 18px;
+  height: 700px;
 }
 
 .title-accommodation {
-  margin-bottom: 29px;
+  margin-bottom: 30px;
   font-size: 22px;
 }
 
@@ -218,18 +218,24 @@ input:focus {
 }
 
 .global-accommodation {
-  width: 27%;
+  max-width: 27%;
   border-radius: 19px;
   background-color: white;
-  padding: 0.5%;
+  padding: 5px;
   box-shadow: 8px 6px 6px 0px #f2f2f2;
-  margin-right: 5%;
-  margin-bottom: 4%;
+  margin-right: 45px;
+  margin-bottom: 49px;
+}
+
+.img-global {
+  overflow: hidden;
+  width: 120px;
+  width: 227px;
 }
 
 .img-accommodation {
-  width: 100%;
-  height: 112px;
+  width: 227px;
+  height: 116px;
   border-radius: 19px 19px 0 0;
   object-fit: cover;
 }
@@ -276,6 +282,7 @@ input:focus {
   border-radius: 18px;
   background-color: #f2f2f2;
   flex: 1;
+  height: 700px;
 }
 
 .most-popular-title {
