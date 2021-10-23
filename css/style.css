@@ -4,8 +4,11 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  width: 77%;
-  margin: auto;
+}
+
+.body-section {
+  max-width: 100rem;
+  margin: 0 auto;
 }
 
 /* Header Content PC */
@@ -197,17 +200,16 @@ input:focus {
 }
 
 .accommodation-marseille {
-  padding-top: 33px;
-  padding-left: 52px;
+  padding-top: 2%;
+  padding-left: 3%;
   background-color: #f2f2f2;
   margin-right: 50px;
   flex: 2;
   border-radius: 18px;
-  height: 700px;
 }
 
 .title-accommodation {
-  margin-bottom: 30px;
+  margin-bottom: 29px;
   font-size: 22px;
 }
 
@@ -218,24 +220,18 @@ input:focus {
 }
 
 .global-accommodation {
-  max-width: 27%;
+  width: 27%;
   border-radius: 19px;
   background-color: white;
-  padding: 5px;
+  padding: 0.5%;
   box-shadow: 8px 6px 6px 0px #f2f2f2;
-  margin-right: 45px;
-  margin-bottom: 49px;
-}
-
-.img-global {
-  overflow: hidden;
-  width: 120px;
-  width: 227px;
+  margin-right: 5%;
+  margin-bottom: 4%;
 }
 
 .img-accommodation {
-  width: 227px;
-  height: 116px;
+  width: 100%;
+  height: 112px;
   border-radius: 19px 19px 0 0;
   object-fit: cover;
 }
@@ -282,7 +278,6 @@ input:focus {
   border-radius: 18px;
   background-color: #f2f2f2;
   flex: 1;
-  height: 700px;
 }
 
 .most-popular-title {
