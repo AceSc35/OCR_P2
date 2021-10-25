@@ -199,6 +199,8 @@ input:focus {
   display: flex;
 }
 
+/* 1st SECTION Part A - ACCOMMODATION  */
+
 .accommodation-marseille {
   padding-top: 2%;
   padding-left: 3%;
@@ -212,8 +214,6 @@ input:focus {
   margin-bottom: 29px;
   font-size: 22px;
 }
-
-/* 1st SECTION Part A - ACCOMMODATION  */
 
 .line-accommodation {
   display: flex;
@@ -297,6 +297,7 @@ input:focus {
   border-radius: 19px 19px;
   width: 87%;
   padding: 1%;
+  box-shadow: 8px 6px 6px 0px #f2f2f2;
 }
 
 .img-mostpopular {
@@ -477,9 +478,79 @@ input:focus {
 
   .information-text {
     padding-top: 6%;
+    padding-bottom: 8%;
   }
 
   .full-accommodation {
     flex-direction: column;
+  }
+
+  /* AVAILABLE ACCOMMODATION Mobile */
+
+  /* 1st SECTION Part A - ACCOMMODATION Mobile  */
+
+  .accommodation-marseille {
+    order: 2;
+    background-color: unset;
+  }
+
+  .title-accommodation {
+    margin-top: 31px;
+  }
+
+  .global-accommodation {
+    width: 112%;
+    margin-bottom: 7%;
+  }
+
+  .icon-stars-accommodation {
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+
+  .text-accommodation p {
+    padding-top: 2%;
+  }
+
+  .line-accommodation {
+    flex-direction: column;
+  }
+
+  /* 1st SECTION Part B - MOST POPULAR Mobile  */
+
+  .most-popular-marseille {
+    order: 1;
+    border-radius: 0px;
+  }
+
+  .chart-icon {
+    padding-right: 3%;
+    margin-top: 31px;
+  }
+
+  .global-mostpopular {
+    width: 97%;
+  }
+
+  .text-global-mostpopular {
+    margin-right: 14%;
+  }
+
+  .img-mostpopular {
+    width: 37%;
+    height: 134px;
+  }
+
+  .img-mostpopular-toutbleu {
+    width: 84%;
+    height: 134px;
+  }
+
+  .icon-stars-mostpopular {
+    padding-top: 24%;
+  }
+
+  .more-display {
+    margin-top: 1%;
   }
 }
