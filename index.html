@@ -43,9 +43,9 @@
         <i class="fas fa-map-marker-alt"></i>
     </div>
         <div class="imput-container">
-            <input class="search-place" type="search" value="Marseille, France"/>
+            <input class="search-place" type="search" value="Marseille, France" aria-labelledby="search" name="search-place"/>
         </div>
-        <div class="search">Rechercher</div>
+        <button class="search" id="search">Rechercher</button>
     </div>
 
     <!-- FILTERS -->
@@ -96,9 +96,9 @@
 
     <!-- AVAILABLE ACCOMMODATION -->
     
-    <div class="full-accommodation"> <!--Englobe la totalité hébergement + Les plus populaires -->
+    <main class="full-accommodation"> <!--Englobe la totalité hébergement + Les plus populaires -->
         <div class="accommodation-marseille"> <!--Englobe seulement les hébergements à Marseille-->
-            <h4 class="title-accommodation">Hébergements à Marseille</h4>
+            <h4 class="title-accommodation" id="hebergements">Hébergements à Marseille</h4>
             
     <!-- 1st SECTION Part A - ACCOMMODATION  -->
     
@@ -214,6 +214,8 @@
 </div>
 
 
+
+
     <!-- 1st SECTION Part B - MOST POPULAR  -->
 
         <div class="most-popular-marseille">
@@ -271,9 +273,64 @@
 
         </div>
 
-    </div>
+    </main>
 
     <!-- 2nd SECTION  - ACTIVITY -->
+
+<h4 class="title-activity" id="activites">Activités à Marseille</h4>
+
+    <section class="full-activity">
+
+
+    <!-- 2nd SECTION Part A - Activity -->
+
+            <div class="line-activity">
+                <div class="global-vieux-port">
+                    <img class="img-vieux-port" src="assets/activites/3_medium/vieux-port.jpg" alt="Vieux Port">
+                    <div class="text-activity">Vieux Port</div>
+                </div>
+
+                <div class="both-last-img-global">
+
+                    <div class="global-fort-pomegues">
+                        <img class="img-fort-pomegues" src="assets/activites/4_small/fort-pomegues.jpg" alt="Fort de Pomègues">
+                        <div class="text-activity">Fort de Pomègues</div>
+                    </div>
+
+                    <div class="global-frioul">
+                        <img class="img-frioul" src="assets/activites/4_small/iles-frioul.jpg" alt="Îles du Frioul">
+                        <div class="text-activity">Îles du Frioul</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+    <!-- 2nd SECTION Part B - Activity -->
+
+            <div class="line-activity">
+                <div class="global-vieux-port">
+                    <img class="img-vieux-port" src="assets/activites/3_medium/parc-calanques.jpg" alt="Parc National des Calanques">
+                    <div class="text-activity">Parc National des Calanques</div>
+                </div>
+
+                
+
+                    <div class="global-notre-dame">
+                        <img class="img-notre-dame" src="assets/activites/4_small/notre-dame.jpg" alt="Notre-Dame-de-la-Garde">
+                        <div class="text-activity">Notre-Dame-de-la-Garde</div>
+                    </div>
+                
+                    <div class="global-longchamp">
+                        <img class="img-longchamp" src="assets/activites/4_small/parc-longchamp.jpg" alt="Parc Longchamp">
+                        <div class="text-activity">Parc Parc Longchamp</div>
+                    </div>
+                
+                </div>
+            
+            
+            
+        </section>
 
     <!-- FOOTER-->
 
