@@ -345,22 +345,19 @@ input:focus {
 }
 
 .line-activity {
-  flex: 1;
-  background-color: red;
-  margin-right: 2%;
   display: flex;
-  height: 423px;
+  justify-content: space-between;
 }
 
 .text-activity {
-  padding-bottom: 15px;
-  margin-left: 9px;
+  margin-left: 19px;
   font-weight: bold;
+  margin-top: 9px;
 }
 
 .both-last-img-global {
   flex-direction: column;
-  width: 41%;
+  width: 22%;
 }
 
 /* 2nd SECTION Part A - ACTIVITY */
@@ -368,71 +365,81 @@ input:focus {
 .global-vieux-port {
   border-radius: 19px;
   background-color: white;
-  width: 41%;
-  margin-right: 80px;
-  height: 423px;
+  width: 22%;
+  height: 427px;
+  box-shadow: 0px 6px 5px 4px #f2f2f2;
 }
 
 .img-vieux-port {
   width: 100%;
   border-radius: 19px 19px 0 0;
-
+  object-fit: cover;
   height: 384px;
+  object-position: 32% 42%;
 }
 
 .global-fort-pomegues {
   background-color: white;
   border-radius: 19px;
-  margin-bottom: 35px;
-  height: 211px;
+  margin-bottom: 31px;
+  height: 215px;
+  box-shadow: 0px 6px 5px 4px #f2f2f2;
 }
 
 .img-fort-pomegues {
   width: 100%;
   border-radius: 19px 19px 0 0;
-
+  object-fit: cover;
   height: 173px;
+  object-position: 50% 45%;
 }
 
 .global-frioul {
   background-color: white;
   border-radius: 19px;
-  height: 177px;
+  height: 181px;
+  box-shadow: 0px 6px 5px 4px #f2f2f2;
 }
 
 .img-frioul {
   width: 100%;
   border-radius: 19px 19px 0 0;
-
+  object-fit: cover;
   height: 138px;
+  object-position: 50% 10%;
 }
 
 /* 2nd SECTION Part B - ACTIVITY */
 
 .global-notre-dame {
-  width: 32%;
   background-color: white;
   border-radius: 19px;
+  margin-bottom: 31px;
+  height: 186px;
+  box-shadow: 0px 6px 5px 4px #f2f2f2;
 }
 
 .img-notre-dame {
   width: 100%;
   border-radius: 19px 19px 0 0;
   object-fit: cover;
-  height: 121px;
+  height: 144px;
+  object-position: 50% 12%;
 }
 
 .global-longchamp {
-  width: 32%;
   background-color: white;
   border-radius: 19px;
+  height: 210px;
+  box-shadow: 0px 6px 5px 4px #f2f2f2;
 }
 
 .img-longchamp {
   width: 100%;
   border-radius: 19px 19px 0 0;
   object-fit: cover;
-  height: 190px;
+  height: 168px;
+  object-position: 50% 19%;
 }
 
 @media only screen and (min-width: 992px) {
