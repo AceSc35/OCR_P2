@@ -332,7 +332,7 @@ input:focus {
   padding-top: 22%;
 }
 
-/*-- 2nd SECTION  - ACTIVITY - GENERAL*/
+/* 2nd SECTION  - ACTIVITY - GENERAL */
 
 .full-activity {
   display: flex;
@@ -382,7 +382,7 @@ input:focus {
   background-color: white;
   border-radius: 19px;
   margin-bottom: 31px;
-  height: 215px;
+  height: 228px;
   box-shadow: 0px 6px 5px 4px #f2f2f2;
 }
 
@@ -390,14 +390,14 @@ input:focus {
   width: 100%;
   border-radius: 19px 19px 0 0;
   object-fit: cover;
-  height: 173px;
+  height: 186px;
   object-position: 50% 45%;
 }
 
 .global-frioul {
   background-color: white;
   border-radius: 19px;
-  height: 181px;
+  height: 168px;
   box-shadow: 0px 6px 5px 4px #f2f2f2;
 }
 
@@ -405,7 +405,7 @@ input:focus {
   width: 100%;
   border-radius: 19px 19px 0 0;
   object-fit: cover;
-  height: 138px;
+  height: 125px;
   object-position: 50% 10%;
 }
 
@@ -654,5 +654,70 @@ input:focus {
 
   .more-display {
     margin-top: 1%;
+  }
+
+  /* 2nd SECTION  - ACTIVITY - GENERAL - Mobile */
+
+  .title-activity {
+    margin-top: 7%;
+    padding-left: 3%;
+  }
+
+  .both-last-img-global {
+    width: unset;
+  }
+
+  /* 2nd SECTION Part A - ACTIVITY - Mobile */
+
+  .line-activity {
+    flex-direction: column;
+    padding-left: 3%;
+  }
+
+  .global-vieux-port {
+    width: 147%;
+    height: 188px;
+  }
+
+  .img-vieux-port {
+    height: 144px;
+  }
+
+  .global-fort-pomegues {
+    width: 147%;
+    height: 188px;
+  }
+
+  .img-fort-pomegues {
+    height: 144px;
+  }
+
+  .global-frioul {
+    width: 147%;
+    height: 188px;
+  }
+
+  .img-frioul {
+    height: 144px;
+  }
+
+  /* 2nd SECTION Part B - ACTIVITY - Mobile */
+
+  .global-notre-dame {
+    width: 147%;
+    height: 188px;
+  }
+
+  .img-notre-dame {
+    height: 144px;
+  }
+
+  .global-longchamp {
+    width: 147%;
+    height: 188px;
+  }
+
+  .img-longchamp {
+    height: 144px;
   }
 }
