@@ -334,14 +334,11 @@ input:focus {
 
 /* 2nd SECTION  - ACTIVITY - GENERAL */
 
-.full-activity {
-  display: flex;
-}
-
 .title-activity {
   font-size: 22px;
   margin-top: 3%;
   margin-bottom: 29px;
+  display: flex;
 }
 
 .line-activity {
@@ -659,7 +656,7 @@ input:focus {
   /* 2nd SECTION  - ACTIVITY - GENERAL - Mobile */
 
   .title-activity {
-    margin-top: 7%;
+    margin-top: 9%;
     padding-left: 3%;
   }
 
@@ -675,17 +672,18 @@ input:focus {
   }
 
   .global-vieux-port {
-    width: 147%;
+    width: 97%;
     height: 188px;
     margin-bottom: 31px;
   }
 
   .img-vieux-port {
     height: 144px;
+    object-position: 30% 17%;
   }
 
   .global-fort-pomegues {
-    width: 147%;
+    width: 97%;
     height: 188px;
   }
 
@@ -694,7 +692,7 @@ input:focus {
   }
 
   .global-frioul {
-    width: 147%;
+    width: 97%;
     height: 188px;
     margin-bottom: 31px;
   }
@@ -706,7 +704,7 @@ input:focus {
   /* 2nd SECTION Part B - ACTIVITY - Mobile */
 
   .global-notre-dame {
-    width: 147%;
+    width: 97%;
     height: 188px;
   }
 
@@ -715,7 +713,7 @@ input:focus {
   }
 
   .global-longchamp {
-    width: 147%;
+    width: 97%;
     height: 188px;
   }
 
