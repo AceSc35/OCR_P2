@@ -677,6 +677,7 @@ input:focus {
   .global-vieux-port {
     width: 147%;
     height: 188px;
+    margin-bottom: 31px;
   }
 
   .img-vieux-port {
@@ -695,6 +696,7 @@ input:focus {
   .global-frioul {
     width: 147%;
     height: 188px;
+    margin-bottom: 31px;
   }
 
   .img-frioul {
