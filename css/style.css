@@ -226,6 +226,10 @@ input:focus {
   margin-bottom: 4%;
 }
 
+.global-accommodation:hover {
+  transform: scale(1.25);
+}
+
 .img-accommodation {
   width: 100%;
   height: 112px;
@@ -301,6 +305,10 @@ input:focus {
   box-shadow: 8px 6px 6px 0px #f2f2f2;
 }
 
+.global-mostpopular:hover {
+  transform: scale(1.15);
+}
+
 .most-popular-link {
   display: flex;
 }
@@ -367,7 +375,7 @@ input:focus {
 
 /* 2nd SECTION Part A - ACTIVITY */
 
-.global-vieux-port {
+.two-big-card-activity {
   border-radius: 19px;
   background-color: white;
   width: 22%;
@@ -654,6 +662,10 @@ h5 {
     margin-bottom: 7%;
   }
 
+  .global-accommodation:hover {
+    transform: scale(0.85);
+  }
+
   .icon-stars-accommodation {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -681,6 +693,10 @@ h5 {
 
   .global-mostpopular {
     width: 97%;
+  }
+
+  .global-mostpopular:hover {
+    transform: scale(0.85);
   }
 
   .text-global-mostpopular {
@@ -724,7 +740,7 @@ h5 {
     padding-right: 4%;
   }
 
-  .global-vieux-port {
+  .two-big-card-activity {
     width: 97%;
     height: 188px;
     margin-bottom: 31px;
