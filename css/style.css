@@ -613,7 +613,7 @@ input:focus {
 
   .icon-stars-accommodation {
     padding-top: 2%;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
   }
 
   .text-accommodation p {
@@ -644,7 +644,7 @@ input:focus {
     margin-right: 14%;
   }
 
-  .img-mostpopular {
+  /*.img-mostpopular {
     width: 37%;
     height: 134px;
   }
@@ -652,7 +652,7 @@ input:focus {
   .img-mostpopular-toutbleu {
     width: 84%;
     height: 134px;
-  }
+  }*/
 
   .icon-stars-mostpopular {
     padding-top: 24%;
