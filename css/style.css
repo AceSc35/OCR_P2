@@ -252,6 +252,11 @@ input:focus {
   padding-top: 3%;
 }
 
+.icon-stars-accommodation i {
+  margin-right: -2px;
+  display: inline-block;
+}
+
 .full {
   color: #0065fc;
   font-size: 13px;
@@ -300,18 +305,12 @@ input:focus {
   display: flex;
 }
 
-.img-mostpopular {
-  width: 29%;
-  height: 139px;
+.tout-bleu-global {
+  max-width: 300px;
+  width: 300px;
   border-radius: 19px 0 0 19px;
-  object-fit: cover;
-}
-
-.img-mostpopular-toutbleu {
-  width: 75%;
-  height: 139px;
-  border-radius: 19px 0 0 19px;
-  object-fit: cover;
+  height: 133px;
+  max-height: 133px;
 }
 
 .text-popular p {
@@ -332,7 +331,12 @@ input:focus {
 }
 
 .icon-stars-mostpopular {
-  padding-top: 22%;
+  padding-top: 17%;
+}
+
+.icon-stars-mostpopular i {
+  margin-right: -2px;
+  display: inline-block;
 }
 
 /* 2nd SECTION  - ACTIVITY - GENERAL */
@@ -441,6 +445,8 @@ input:focus {
   height: 168px;
   object-position: 50% 19%;
 }
+
+/* Footer */
 
 @media only screen and (min-width: 992px) {
   /* Nav responsive pc */
