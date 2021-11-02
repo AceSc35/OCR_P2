@@ -305,12 +305,13 @@ input:focus {
   display: flex;
 }
 
-.tout-bleu-global {
+.img-global-most-popular {
   max-width: 300px;
   width: 300px;
   border-radius: 19px 0 0 19px;
   height: 133px;
   max-height: 133px;
+  background-position: top 38% right 50%;
 }
 
 .text-popular p {
@@ -447,6 +448,48 @@ input:focus {
 }
 
 /* Footer */
+
+footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.footer-global {
+  margin-top: 41px;
+  height: 234px;
+  background-color: #f2f2f2;
+}
+
+.footer-container {
+  display: flex;
+  margin-left: 151px;
+  padding-top: 36px;
+  margin-right: 151px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 73%;
+}
+
+.height-footer {
+  height: 150px;
+}
+
+h5 {
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+
+h5 {
+  margin-bottom: 25px;
+}
+
+.footer-container a {
+  padding-bottom: 15px;
+}
 
 @media only screen and (min-width: 992px) {
   /* Nav responsive pc */
