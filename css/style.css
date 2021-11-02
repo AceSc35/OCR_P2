@@ -708,7 +708,7 @@ h5 {
   /* 2nd SECTION  - ACTIVITY - GENERAL - Mobile */
 
   .title-activity {
-    margin-top: 9%;
+    margin-top: 13%;
     padding-left: 3%;
   }
 
@@ -720,7 +720,8 @@ h5 {
 
   .line-activity {
     flex-direction: column;
-    padding-left: 3%;
+    padding-left: 7%;
+    padding-right: 4%;
   }
 
   .global-vieux-port {
@@ -771,5 +772,30 @@ h5 {
 
   .img-longchamp {
     height: 144px;
+  }
+
+  /* Footer */
+
+  .footer-global {
+    height: 500px;
+  }
+
+  .footer-container {
+    margin-right: unset;
+    margin-left: 37px;
+    flex-direction: column;
+  }
+
+  .height-footer {
+    height: unset;
+  }
+
+  h5 {
+    margin-bottom: 29px;
+    margin-top: 15px;
+  }
+
+  .footer-container a {
+    padding-bottom: 12px;
   }
 }
