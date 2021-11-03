@@ -512,11 +512,261 @@ h5 {
 /* Tablet responsive  */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* General Content tablet*/
+
+  body {
+    width: 100%;
+  }
+
+  /* Header Content tablet */
+
+  .header-section {
+    flex-direction: column;
+  }
+
+  /* Logo Booki tablet */
+
+  .logo-booki {
+    text-align: center;
+  }
+
+  .logo-booki img {
+    margin-left: 36px;
+  }
+
+  /* Nav tablet */
+
+  .nav-section {
+    width: 100%;
+  }
+
+  .ele-nav {
+    width: 50%;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 2%;
+  }
+  .ele-nav:hover {
+    color: #0065fc;
+    border-bottom: 2px solid #0065fc;
+    padding-bottom: 2%;
+  }
+
+  .lien-nav {
+    width: 50%;
+  }
+
+  .lien-nav:hover {
+    border-top: none;
+  }
+
+  .search-container,
+  .title-container,
+  .filters-general,
+  .information-container {
+    margin-left: 20px;
+  }
+
+  /* Filters - Tablet */
+
+  .filters-general {
+    margin-top: 22px;
+  }
+
+  .filters-container {
+    width: 88%;
+  }
+  .filter-text {
+    font-size: 14px;
+  }
+
+  /* AVAILABLE ACCOMMODATION Tablet */
+
+  /* 1st SECTION Part A - ACCOMMODATION Tablet  */
+
+  .full-accommodation {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+
+  .line-accommodation {
+    justify-content: center;
+  }
+
+  .accommodation-marseille {
+    margin-right: 0;
+    border-radius: 0;
+  }
+
+  .title-accommodation {
+    margin-top: 15px;
+  }
+
+  .more-display {
+    margin-top: 15px;
+  }
+
+  /* 1st SECTION Part B - MOST POPULAR Tablet  */
+
+  .most-popular-marseille {
+    border-radius: 0px;
+    padding-left: 0px;
+  }
+
+  .global-mostpopular {
+    margin-left: auto;
+    margin-right: auto;
+    height: 145px;
+    width: 86%;
+    margin-bottom: 4%;
+  }
+
+  .text-global-mostpopular {
+    margin-right: 11%;
+  }
+
+  .img-global-most-popular {
+    max-width: 562px;
+    width: 562px;
+    height: 129px;
+    max-height: 129px;
+    background-position: top 66% right 51%;
+  }
+
+  .most-popular-title {
+    align-items: center;
+    padding-left: 3%;
+  }
+
+  .icon-stars-mostpopular {
+    padding-top: 20px;
+  }
+
+  .chart-icon {
+    padding-right: 52px;
+    padding-bottom: 20px;
+  }
+
+  /* 2nd SECTION  - ACTIVITY - GENERAL - Tablet */
+
+  .title-activity {
+  }
+
+  .both-last-img-global {
+    width: unset;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .title-activity {
+    padding-left: 3%;
+  }
+
+  .line-activity {
+    flex-direction: column;
+  }
+
+  /* 2nd SECTION Part A - ACTIVITY - Tablet */
+
+  .two-big-card-activity {
+    width: 80%;
+    height: 188px;
+    margin-bottom: 31px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-vieux-port {
+    height: 144px;
+    object-position: 29% 52%;
+  }
+
+  .global-fort-pomegues {
+    width: 40%;
+    height: 188px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-fort-pomegues {
+    height: 144px;
+    object-position: 30% 48%;
+  }
+
+  .global-frioul {
+    width: 40%;
+    height: 188px;
+    margin-bottom: 31px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-frioul {
+    height: 144px;
+  }
+
+  /* 2nd SECTION Part B - ACTIVITY - Tablet */
+
+  .global-notre-dame {
+    width: 40%;
+    height: 188px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-notre-dame {
+    height: 144px;
+    object-position: 26% 24%;
+  }
+
+  .global-longchamp {
+    width: 40%;
+    height: 188px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-longchamp {
+    height: 144px;
+  }
+
+  /* Footer */
+
+  .footer-global {
+    height: 250px;
+  }
+
+  .footer-container {
+    margin-right: unset;
+    margin-left: 37px;
+  }
+
+  .about-container {
+    margin-right: 28px;
+  }
+
+  .acc-container {
+    margin-right: 28px;
+  }
+
+  .height-footer {
+    height: unset;
+  }
+
+  h5 {
+    margin-bottom: 29px;
+    margin-top: 15px;
+  }
+
+  .footer-container a {
+    padding-bottom: 12px;
+  }
 }
 
 /* Mobile responsive  */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* General Content mobile*/
 
   body {
@@ -790,7 +1040,7 @@ h5 {
     height: 144px;
   }
 
-  /* Footer */
+  /* Footer - Mobile */
 
   .footer-global {
     height: 500px;
