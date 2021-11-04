@@ -319,7 +319,6 @@ input:focus {
   width: 300px;
   border-radius: 19px 0 0 19px;
   height: 133px;
-  max-height: 133px;
   background-position: top 38% right 50%;
 }
 
@@ -912,7 +911,7 @@ h5 {
   }
 
   .global-accommodation {
-    width: 90%;
+    width: 95%;
     margin-bottom: 7%;
     margin-left: auto;
     margin-right: auto;
@@ -942,6 +941,7 @@ h5 {
   .most-popular-marseille {
     order: 1;
     border-radius: 0px;
+    padding-left: 0;
   }
 
   .chart-icon {
@@ -950,12 +950,16 @@ h5 {
   }
 
   .global-mostpopular {
-    width: 97%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  /*.global-mostpopular:hover {
-    transform: scale(0.95);
-  }*/
+  .global-mostpopular:hover {
+    transform: unset;
+    background-color: black;
+    color: white;
+  }
 
   .text-global-mostpopular {
     margin-right: 14%;
