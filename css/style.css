@@ -303,6 +303,7 @@ input:focus {
   width: 87%;
   padding: 1%;
   box-shadow: 8px 6px 6px 0px #f2f2f2;
+  max-height: 143px;
 }
 
 .global-mostpopular:hover {
@@ -621,6 +622,12 @@ h5 {
     margin-bottom: 4%;
   }
 
+  .global-mostpopular:hover {
+    transform: unset;
+    background-color: black;
+    color: white;
+  }
+
   .text-global-mostpopular {
     margin-right: 11%;
   }
@@ -648,9 +655,6 @@ h5 {
   }
 
   /* 2nd SECTION  - ACTIVITY - GENERAL - Tablet */
-
-  .title-activity {
-  }
 
   .both-last-img-global {
     width: unset;
@@ -731,7 +735,7 @@ h5 {
     height: 144px;
   }
 
-  /* Footer */
+  /* Footer - Tablet */
 
   .footer-global {
     height: 250px;
@@ -839,12 +843,9 @@ h5 {
   }
 
   .search {
-    position: absolute;
     font-size: 0px;
     width: 40px;
     height: 39px;
-    z-index: 2;
-    right: 33px;
     border-radius: 9px 9px 9px 9px;
   }
   .search::before {
@@ -901,19 +902,26 @@ h5 {
   .accommodation-marseille {
     order: 2;
     background-color: unset;
+    width: 100%;
+    padding-left: unset;
   }
 
   .title-accommodation {
     margin-top: 31px;
+    padding-left: 3%;
   }
 
   .global-accommodation {
-    width: 112%;
+    width: 90%;
     margin-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .global-accommodation:hover {
-    transform: scale(0.85);
+    transform: unset;
+    background-color: black;
+    color: white;
   }
 
   .icon-stars-accommodation {
@@ -945,9 +953,9 @@ h5 {
     width: 97%;
   }
 
-  .global-mostpopular:hover {
-    transform: scale(0.85);
-  }
+  /*.global-mostpopular:hover {
+    transform: scale(0.95);
+  }*/
 
   .text-global-mostpopular {
     margin-right: 14%;
@@ -969,6 +977,7 @@ h5 {
 
   .more-display {
     margin-top: 1%;
+    padding-left: 3%;
   }
 
   /* 2nd SECTION  - ACTIVITY - GENERAL - Mobile */
