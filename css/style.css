@@ -330,9 +330,9 @@ input:focus {
 
 .text-global-mostpopular {
   width: 100%;
-  margin-left: 5%;
-  margin-top: 3%;
-  margin-right: 27%;
+  margin-left: 15px;
+  margin-top: 11px;
+  margin-right: 53px;
 }
 
 .text-popular {
@@ -340,7 +340,7 @@ input:focus {
 }
 
 .icon-stars-mostpopular {
-  padding-top: 17%;
+  padding-top: 25px;
 }
 
 .icon-stars-mostpopular i {
@@ -628,7 +628,8 @@ h5 {
   }
 
   .text-global-mostpopular {
-    margin-right: 11%;
+    margin-right: 98px;
+    margin-left: 15px;
   }
 
   .img-global-most-popular {
@@ -746,11 +747,11 @@ h5 {
   }
 
   .about-container {
-    margin-right: 28px;
+    margin-right: 63px;
   }
 
   .acc-container {
-    margin-right: 28px;
+    margin-right: 63px;
   }
 
   .height-footer {
@@ -976,7 +977,7 @@ h5 {
   }*/
 
   .icon-stars-mostpopular {
-    padding-top: 24%;
+    padding-top: 27px;
   }
 
   .more-display {
