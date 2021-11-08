@@ -37,12 +37,6 @@ body {
   list-style-type: none;
   display: flex;
   text-align: center;
-  width: 100%;
-}
-
-.lien-nav {
-  text-decoration: none;
-  color: inherit;
 }
 
 .ele-nav {
@@ -125,7 +119,6 @@ input:focus {
 }
 
 .filter-icon-container {
-  display: flex;
   margin-right: 2%;
 }
 
@@ -303,7 +296,6 @@ input:focus {
   width: 87%;
   padding: 1%;
   box-shadow: 8px 6px 6px 0px #f2f2f2;
-  max-height: 143px;
 }
 
 .global-mostpopular:hover {
@@ -315,7 +307,6 @@ input:focus {
 }
 
 .img-global-most-popular {
-  max-width: 300px;
   width: 300px;
   border-radius: 19px 0 0 19px;
   height: 133px;
@@ -332,7 +323,10 @@ input:focus {
   width: 100%;
   margin-left: 15px;
   margin-top: 11px;
-  margin-right: 53px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .text-popular {
@@ -340,7 +334,7 @@ input:focus {
 }
 
 .icon-stars-mostpopular {
-  padding-top: 25px;
+  padding-bottom: 5px;
 }
 
 .icon-stars-mostpopular i {
@@ -616,9 +610,9 @@ h5 {
   .global-mostpopular {
     margin-left: auto;
     margin-right: auto;
-    height: 145px;
     width: 86%;
     margin-bottom: 4%;
+    padding: 0.5%;
   }
 
   .global-mostpopular:hover {
@@ -633,10 +627,8 @@ h5 {
   }
 
   .img-global-most-popular {
-    max-width: 562px;
     width: 562px;
     height: 129px;
-    max-height: 129px;
     background-position: top 66% right 51%;
   }
 
@@ -646,7 +638,7 @@ h5 {
   }
 
   .icon-stars-mostpopular {
-    padding-top: 20px;
+    padding-bottom: unset;
   }
 
   .chart-icon {
@@ -847,6 +839,8 @@ h5 {
     width: 40px;
     height: 39px;
     border-radius: 9px 9px 9px 9px;
+    position: relative;
+    right: 5px;
   }
   .search::before {
     font-family: "Font Awesome\ 5 Free";
@@ -964,20 +958,6 @@ h5 {
 
   .text-global-mostpopular {
     margin-right: 14%;
-  }
-
-  /*.img-mostpopular {
-    width: 37%;
-    height: 134px;
-  }
-
-  .img-mostpopular-toutbleu {
-    width: 84%;
-    height: 134px;
-  }*/
-
-  .icon-stars-mostpopular {
-    padding-top: 27px;
   }
 
   .more-display {
