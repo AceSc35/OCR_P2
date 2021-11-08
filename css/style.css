@@ -912,6 +912,10 @@ h5 {
     margin-right: auto;
   }
 
+  .img-accommodation {
+    object-fit: cover;
+  }
+
   .global-accommodation:hover {
     transform: unset;
     background-color: black;
@@ -957,7 +961,7 @@ h5 {
   }
 
   .text-global-mostpopular {
-    margin-right: 14%;
+    margin-right: unset;
   }
 
   .more-display {
