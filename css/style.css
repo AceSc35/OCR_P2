@@ -7,7 +7,7 @@ body {
 }
 
 .body-section {
-  max-width: 100rem;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -817,7 +817,7 @@ h5 {
   }
 
   h3 {
-    font-size: 1.4em;
+    font-size: 22.4px;
   }
 
   /* Search Container mobile */
